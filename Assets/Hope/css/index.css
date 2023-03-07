@@ -1,0 +1,606 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Hind:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* --------------------------top-header------------------------------ */
+
+ .top-header {
+    background-color: #FFFBF2;
+    padding: 20px 0px;
+ }
+
+ .top-header .top-social {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+ }
+
+ .top-header .top-social .search {
+    border: none;
+    border-radius: 50px;
+    height: 32px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A61F1F;
+    color: #ffffff;
+ }
+
+ .top-header .top-social .top-user {
+    color: #A61F1F;
+
+ }
+
+ .top-header .top-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .top-header .top-logo img {
+    height: 42px;
+    width: 30px;
+ }
+
+ .top-header .top-logo h1 {
+    font-size: 52px;
+ }
+
+ .top-header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+
+ .top-header .nav .bar {
+    color: #A61F1F;
+    display: none;
+ }
+
+ .top-header .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 0px;
+ }
+
+ .top-header .navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #A61F1F;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+ }
+
+ .top-header .navbar ul li a:hover {
+    border-radius: 50px;
+    background-color: #A61F1F;
+    color: #ffffff;
+ }
+
+ /*-------------------------------------- second-header--------------------------------------------- */
+
+ .second-header {
+    background-color: #A61F1F;
+ }
+
+ .second-header .second-detail {
+    max-width: 640px;
+    margin: 200px 20px 0px auto;
+ }
+
+ .second-header .second-detail h2 {
+    font-size: 80px;
+    color: #ffffff;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .second-header .second-detail p {
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'Sora', sans-serif;
+    text-align: justify;
+ }
+
+ .second-header .second-detail .btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px;
+ }
+
+ .second-header .second-detail .btn .btn1 button {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    background-color: #A61F1F;
+    color: #ffffff;
+    transition: .5s all ease;
+ }
+
+ .second-header .second-detail .btn .btn1 button:hover {
+    background-color: #ffffff;
+    color: #A61F1F;
+ }
+
+ .second-header .second-detail .btn .btn1 button i {
+    padding-left: 10px;
+ }
+
+ .second-header .second-image img {
+    height: 960px;
+    max-width: 960px;
+    width: 100%;
+ }
+
+ /* ----------------------------------------strategy------------------------------------- */
+
+ .strategy {
+    background-color: #FFFBF2;
+    padding: 180px 0px 180px 0px;
+ }
+
+ .strategy .strategy-detail h2 {
+    text-align: center;
+    font-size: 60px;
+    padding: 0px 0px 40px 0px;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .strategy .strategy-detail p {
+    text-align: center;
+    line-height: 26px;
+    padding: 0px 0px 50px 0px;
+    font-family: 'Sora', sans-serif;
+ }
+
+ .strategy .strategy-detail .btn {
+    display: flex;
+    justify-content: center;
+ }
+
+ .strategy .strategy-detail .btn button {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #A61F1F;
+    border-radius: 50px;
+    background-color: #FFFBF2;
+    color: #A61F1F;
+    transition: .5s all ease;
+ }
+
+ .strategy .strategy-detail .btn button:hover {
+    background-color: #A61F1F;
+    color: #FFFBF2;
+ }
+
+ .strategy .strategy-detail .btn button i {
+    padding-left: 10px;
+ }
+
+
+ /*-------------------------------------------------- help -----------------------------------------------------*/
+
+ .help .help-detail {
+    margin: 270px 0px 270px 0px;
+ }
+
+ .help .help-detail h2 {
+    font-size: 60px;
+    font-family: 'Abhaya Libre', serif;
+    color: #A61F1F;
+    padding-bottom: 40px;
+ }
+
+ .help .help-detail p {
+    text-align: justify;
+    line-height: 26px;
+    padding-bottom: 50px;
+    font-family: 'Sora', sans-serif;
+    max-width: 100%;
+ }
+
+ .help .help-detail .btn button {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #A61F1F;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #A61F1F;
+    transition: .5s all ease;
+ }
+
+ .help .help-detail .btn button:hover {
+    background-color: #A61F1F;
+    color: #ffffff;
+ }
+
+ .help .help-detail .btn button i {
+    padding-left: 10px;
+ }
+
+ .help .help-image {
+    margin: 120px 0px 120px;
+ }
+
+ .help .help-image img {
+    height: auto;
+    max-width: 600px;
+    width: 100%;
+ }
+
+ .help .help-nub {
+    text-align: center;
+ }
+
+ .help .help-nub h2 {
+    font-size: 120px;
+    color: #A61F1F;
+    padding-bottom: 15px;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .help .help-nub p {
+    padding-bottom: 130px;
+    line-height: 26px;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+ }
+
+ /* ----------------------------------------Cancer Categories---------------------------------- */
+ .Categories {
+    background-color: #FFFBF2;
+    padding: 120px 0px 120px 0px;
+ }
+
+ .Categories .cancer-categories h2 {
+    font-size: 60px;
+
+    color: #A61F1F;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .Categories .cancer-image img {
+    width: 100%;
+    padding-top: 60px;
+ }
+
+
+ /* --------------------------------------------Team Members ------------------------------------------------------*/
+
+ .members .members-head h2 {
+    text-align: center;
+    padding-bottom: 60px;
+    font-family: 'Abhaya Libre', serif;
+    color: #A61F1F;
+    font-size: 60px;
+ }
+
+ .members .team-n {
+    padding-top: 60px;
+ }
+
+ .members .team-n .team-image img {
+    width: 100%;
+ }
+
+ .members .team-n .team-name {
+    background-color: #FFFBF2;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    width: calc(100% - 80px);
+    height: 150px;
+    margin: -70px auto 0;
+    position: relative;
+ }
+
+
+ /* ------------------------------------------people------------------------------------------ */
+
+ .people .people-image img {
+    width: 100%;
+    padding-top: 395px;
+ }
+
+ .people .people-detail {
+    padding-bottom: 50px;
+ }
+
+ .people .people-detail h2 {
+    color: #A61F1F;
+    font-size: 60px;
+    font-family: 'Abhaya Libre', serif;
+    padding-bottom: 40px;
+ }
+
+ .people .people-detail p {
+    font-family: 'Sora', sans-serif;
+    padding-bottom: 60px;
+    max-width: 100%;
+ }
+
+ .people .people-detail .btn1 button {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #A61F1F;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #A61F1F;
+    transition: .5s all ease;
+ }
+
+ .people .people-detail .btn1 button:hover {
+    background-color: #A61F1F;
+    color: #ffffff;
+ }
+
+ .people .people-detail .btn1 button i {
+    padding-left: 10px;
+ }
+
+ .people .people-detail .people-image01 img {
+    width: 100%;
+ }
+
+ /*------------------------------------------------- sales------------------------------------------------------ */
+ .sales {
+    background-color: #FFFBF2;
+ }
+
+ .sales .sales-head h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #A61F1F;
+    font-family: 'Abhaya Libre', serif;
+    padding: 120px 0px 80px 0px;
+ }
+
+ .sales .sales-faq {
+    padding-bottom: 120px;
+    border-top: 1px solid #A61F1F;
+ }
+
+ .sales .sales-faq .faq01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #A61F1F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ .sales .sales-faq .faq01 i{
+   border: none;
+   border-radius: 50px;
+   background-color: black;
+   color: #ffffff;
+   padding: 10px;
+
+ }
+
+ /* -------------------------------------------blog----------------------------------------------------- */
+
+ .blog {
+    padding-top: 120px;
+    padding-bottom: 120px;
+ }
+
+ .blog .Our-blog h2 {
+    padding-bottom: 60px;
+    font-size: 60px;
+    color: #A61F1F;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .blog .blog-slide p {
+    padding-bottom: 60px;
+ }
+
+ .blog .blog-grid {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFBF2;
+ }
+
+ .blog .blog-grid .blog-image {
+    position: relative;
+    width: 50%;
+ }
+
+ .blog .blog-grid .blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .blog .blog-grid .blog-detail {
+    padding: 30px;
+    width: 50%;
+ }
+
+ .blog .blog-grid .blog-detail p {
+    font-family: 'Sora', sans-serif;
+    padding-bottom: 15px;
+    font-size: 15px;
+ }
+
+ .blog .blog-grid .blog-detail h6 {
+    font-family: 'Abhaya Libre', serif;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .blog .blog-grid .blog-detail .btn1 button {
+    height: 46px;
+    width: 145px;
+    border: 1px solid #A61F1F;
+    border-radius: 50px;
+    background-color: #FFFBF2;
+    color: #A61F1F;
+    transition: .5s all ease;
+ }
+
+ .blog .blog-grid .blog-detail .btn1 button:hover {
+    background-color: #A61F1F;
+    color: #ffffff;
+ }
+
+ .blog .blog-grid .blog-detail .btn1 button i {
+    padding-left: 10px;
+ }
+
+ /* -----------------------------------------------testimonial----------------------------------------- */
+ .testimonial {
+    padding-bottom: 120px;
+ }
+
+ .testimonial .our h2 {
+    text-align: center;
+    color: #A61F1F;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 60px;
+    padding-bottom: 60px;
+ }
+
+ .testimonial .testimonial-detail {
+    padding-bottom: 55px;
+ }
+
+ .testimonial .testimonial-detail p {
+    text-align: center;
+ }
+
+ .testimonial .testimonial-detail p::before {
+    content: url(../image/“.png);
+ }
+
+ .testimonial .testimonial-image {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+ }
+
+ /*------------------------------------------------ email------------------------------------------- */
+
+ .sign {
+    background-color: #A61F1F;
+    margin: 0px 130px 130px 130px;
+    padding-bottom: 175px;
+ }
+
+ .sign .sign-head {
+    text-align: center;
+ }
+
+ .sign .sign-head h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Abhaya Libre', serif;
+    padding-top: 180px;
+    padding-bottom: 40px;
+ }
+
+ .sign .sign-head p {
+    font-family: 'sora', serif;
+    line-height: 26px;
+    color: white;
+    padding-bottom: 50px;
+ }
+
+ .sign .sign-head .sign-in .sign001 {
+    position: relative;
+ }
+
+ .sign .sign-head .sign-in input {
+    height: 60px;
+    width: 580px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #A61F1F;
+    max-width: 100%;
+ }
+
+ .sign .sign-head .sign-in input[type=text]::placeholder {
+    padding-left: 30px;
+    color: #ffffff;
+ }
+
+ /* .sign .sign-head .sign-in p{
+   position: absolute;
+       
+ } */
+
+
+ /* ----------------------------------------footer---------------------------------------- */
+
+ .hope-footer {
+    background-color: #FFFBF2;
+ }
+
+ .hope-footer p {
+    font-family: 'Sora', sans-serif;
+    color: #6A6A6A;
+ }
+
+ .hope-footer .footer-logo {
+    display: flex;
+    gap: 10px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+ }
+
+ .hope-footer .footer-logo h2 {
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .hope-footer .quick {
+    padding-top: 80px;
+    list-style: none;
+ }
+
+ .hope-footer .quick h4 {
+    font-family: 'Abhaya Libre', serif;
+    padding-bottom: 20px;
+ }
+
+ .hope-footer .quick li a {
+    text-decoration: none;
+    color: #6A6A6A;
+    font-family: 'Sora', sans-serif;
+ }
+
+ .hope-footer .contact {
+    padding-top: 80px;
+    padding-bottom: 60px;
+ }
+
+ .hope-footer .contact h4 {
+    padding-bottom: 20px;
+    font-family: 'Abhaya Libre', serif;
+ }
+
+ .hope-footer .contact h6 {
+    font-family: 'Sora', sans-serif;
+ }
+
+ .hope-footer .copy {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+    color: #6A6A6A;
+    font-family: 'Sora', sans-serif;
+ }

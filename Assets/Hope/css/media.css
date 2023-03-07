@@ -1,0 +1,359 @@
+@media (max-width: 1200px) {
+
+    /* top-header */
+
+    .top-header .navbar ul li a {
+        padding: 5px;
+    }
+
+    /* second header */
+
+    .second-header .second-detail {
+        margin: 22px 15px 0px 24px;
+    }
+
+    .second-header .second-detail h2 {
+        font-size: 60px;
+        margin-bottom: 0px;
+
+    }
+
+    .second-header .second-detail p {
+        padding-bottom: 35px;
+        margin-bottom: 0px;
+    }
+
+    .second-header .second-image img {
+        height: auto;
+        max-width: 960px;
+        width: 100%;
+    }
+    
+ .help .help-detail {
+    margin: 120px 0px 270px 0px;
+ }
+
+
+    /* people */
+
+    .people .people-image img {
+        padding-top: 515px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    /* top-header */
+
+    .top-header .navbar ul li a {
+        display: none;
+    }
+
+    .top-header .nav .bar {
+        display: block;
+    }
+
+    /* second header */
+
+    .second-header .second-detail {
+        margin: 40px 40px 0px 40px;
+    }
+
+    .second-header .second-detail h2 {
+        font-size: 50px;
+        margin-bottom: 0px;
+
+    }
+
+    .second-header .second-detail p {
+        padding-bottom: 35px;
+        margin-bottom: 0px;
+    }
+
+    .second-header .second-image img {
+        height: auto;
+        max-width: 960px;
+        width: 100%;
+    }
+
+    .second-header .second-detail .btn .btn1 button {
+        height: 55px;
+        width: 170px;
+    }
+
+    /* help */
+
+    .help .help-detail {
+        margin: 200px 0px 20px 0px;
+    }
+
+    .help .help-detail h2 {
+        font-size: 45px;
+    }
+
+    /* Categories */
+
+    .Categories .cancer-categories h2 {
+        font-size: 50px;
+    }
+
+    /* people */
+
+    .people .people-image img {
+        padding-top: 515px;
+    }
+
+    /* email */
+    .sign {
+        padding-bottom: 100px;
+    }
+
+    .sign .sign-head h2 {
+        padding-top: 100px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* top-header */
+
+    .top-header .navbar ul li a {
+        display: none;
+    }
+
+    .top-header .nav .bar {
+        display: block;
+    }
+
+    /* second-header */
+
+    .second-header .second-detail .btn {
+        padding-bottom: 30px;
+    }
+
+    /* strategy */
+
+    .strategy .strategy-detail h2 {
+        font-size: 50px;
+    }
+
+    /* help */
+    .help .help-detail {
+        margin: 100px 0px 60px 0px;
+    }
+
+    .help .help-image {
+        margin: 20px 0px 80px;
+    }
+
+    .help .help-nub h2 {
+        font-size: 100px;
+    }
+
+    .help .help-nub p {
+        padding-bottom: 50px;
+    }
+
+    /* Categories */
+
+    .Categories .cancer-categories h2 {
+        font-size: 40px;
+    }
+
+    /* people */
+
+    .people .people-image img {
+        padding-top: 20px;
+    }
+
+    .people .people-detail h2 {
+        font-size: 50px;
+        padding-top: 20px;
+    }
+
+    /* sales */
+
+    .sales .sales-head h2 {
+        font-size: 40px;
+    }
+
+    /* blog */
+
+    .blog .blog-grid {
+        margin-bottom: 40px;
+    }
+
+    .blog .Our-blog h2 {
+        font-size: 50px;
+    }
+
+    /* email */
+    .sign .sign-head h2 {
+        font-size: 50px;
+    }
+
+    .sign {
+        margin: 0px 80px 80px 80px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* top-header */
+    .top-header .top-social {
+        gap: 10px;
+    }
+
+    .top-header .top-social .search {
+        height: 25px;
+        width: 40px;
+    }
+
+    .top-header .top-logo {
+        gap: 5px;
+    }
+
+    .top-header .navbar ul li a {
+        display: none;
+    }
+
+    .top-header .nav .bar {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .top-header .top-logo img {
+        height: 22px;
+        width: 15px;
+    }
+
+    .top-header .top-logo h1 {
+        font-size: 25px;
+    }
+
+    /* strategy */
+
+    .strategy .strategy-detail h2 {
+        font-size: 40px;
+    }
+
+    .strategy .strategy-detail p {
+        text-align: justify;
+    }
+
+    /* help */
+    .help .help-detail {
+        margin: 70px 0px 60px 0px;
+    }
+
+    .help .help-detail h2 {
+        font-size: 40px;
+    }
+
+    .help .help-image {
+        margin: 40px 0px 80px;
+    }
+
+    .help .help-nub p {
+        padding-bottom: 50px;
+    }
+
+    .help .help-nub h2 {
+        font-size: 80px;
+    }
+
+    /* Categories */
+
+    .Categories .cancer-categories h2 {
+        font-size: 30px;
+    }
+
+    /* team members */
+
+    .members .members-head h2 {
+        padding-bottom: 30px;
+        font-size: 50px;
+    }
+
+    .members .team-n {
+        padding-top: 40px;
+    }
+
+    /* people */
+    .people .people-detail h2 {
+        font-size: 35px;
+    }
+
+    .people .people-detail p {
+        padding-bottom: 30px;
+    }
+
+    /* sales */
+
+    .sales .sales-head h2 {
+        font-size: 35px;
+    }
+
+    .sales .sales-head h2 {
+        padding: 50px 0px 25px 0px;
+    }
+
+    /* blog */
+
+    .blog {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .blog .blog-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blog .blog-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog .blog-grid .blog-image {
+        width: 100%;
+    }
+
+    .blog .blog-grid .blog-detail {
+        width: 100%;
+    }
+
+    .blog .Our-blog h2 {
+        font-size: 35px;
+    }
+
+    /* testimonial */
+
+    .testimonial .our h2 {
+        font-size: 50px;
+    }
+
+    /* email */
+
+    .sign .sign-head h2 {
+        font-size: 40px;
+    }
+
+    .sign {
+        margin: 0px 0px 0px 0px;
+    }
+    /* .sign .sign-head .sign-in p{
+        left: 230px;
+      } */
+
+    .hope-footer .copy p {
+        font-size: 12px;
+    }
+
+    .hope-footer .copy {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
